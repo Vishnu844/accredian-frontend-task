@@ -33,7 +33,7 @@ const Form = ({ setShowModal }) => {
     console.log(hasNoErrors);
     if (hasNoErrors === true) {
       try {
-        const res = await fetch("https://accredian-backend-task-t8c2.onrender.com/add", {
+        const res = await fetch("https://accredian-backend-task-t8c2.onrender.com/api/referral-user/add", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
